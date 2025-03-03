@@ -26,8 +26,14 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-<div style="position: relative; padding-bottom: 211.76470588235296%; height: 0;"><iframe src="https://www.loom.com/embed/d1a3d591823f435b9d2074a9c9d1aa4e?sid=ed95c949-ad5a-4919-8763-d708743c7634" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
+<div>
+    <a href="https://www.loom.com/share/d1a3d591823f435b9d2074a9c9d1aa4e">
+      <p>Simulator - iPhone 16 - 3 March 2025 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/d1a3d591823f435b9d2074a9c9d1aa4e">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/d1a3d591823f435b9d2074a9c9d1aa4e-2476eaa37fda7877-full-play.gif">
+    </a>
+  </div>
 ## Notes
 
 Describe any challenges encountered while building the app.
