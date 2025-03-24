@@ -1,10 +1,10 @@
 # Project 4 - TRIVIA
 
-Submitted by: **Your Name Here**
+Submitted by: Zulal Akarsu
 
-**Name of your app** is an app that ... [TODO] 
+Trivia quiz app. 
 
-Time spent: **X** hours spent in total
+Time spent: 4 hours spent in total
 
 ## Required Features
 
