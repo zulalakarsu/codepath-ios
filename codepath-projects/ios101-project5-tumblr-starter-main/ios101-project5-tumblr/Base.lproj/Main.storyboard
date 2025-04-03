@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ios101_project5_tumblr" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="116" estimatedRowHeight="300" sectionHeaderHeight="100" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="BOb-9r-dwQ">
+                                <rect key="frame" x="29" y="47" width="334" height="737"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PostCell" rowHeight="116" id="qRL-TO-2Fu" customClass="PostCell" customModule="ios101_project5_tumblr" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="334" height="116"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qRL-TO-2Fu" id="wq9-9b-TJx" customClass="PostCell" customModule="ios101_project5_tumblr" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="334" height="116"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" image="baseline.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="9b4-ZX-DDa">
+                                                    <rect key="frame" x="27" y="15" width="106" height="86"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="86" id="Ur5-0d-O1U"/>
+                                                        <constraint firstAttribute="width" secondItem="9b4-ZX-DDa" secondAttribute="height" multiplier="50:87" constant="56.574712643678161" id="nrD-Ru-9ok"/>
+                                                    </constraints>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" insetsLayoutMarginsFromSafeArea="NO" text="TEXT" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="220" translatesAutoresizingMaskIntoConstraints="NO" id="DPB-Mu-GXy">
+                                                    <rect key="frame" x="153" y="4" width="200" height="97"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="200" id="kAj-En-j1l"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="DPB-Mu-GXy" firstAttribute="leading" secondItem="9b4-ZX-DDa" secondAttribute="trailing" constant="20" id="0mX-nK-fBJ"/>
+                                                <constraint firstItem="9b4-ZX-DDa" firstAttribute="leading" secondItem="wq9-9b-TJx" secondAttribute="leadingMargin" constant="7" id="GIf-Fl-RWt"/>
+                                                <constraint firstItem="DPB-Mu-GXy" firstAttribute="bottom" secondItem="9b4-ZX-DDa" secondAttribute="bottom" id="JRw-OH-c1X"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="9b4-ZX-DDa" secondAttribute="bottom" constant="4" id="RPu-8O-ZRe"/>
+                                                <constraint firstItem="DPB-Mu-GXy" firstAttribute="top" secondItem="wq9-9b-TJx" secondAttribute="topMargin" constant="-7" id="VwN-HQ-CU0"/>
+                                                <constraint firstItem="9b4-ZX-DDa" firstAttribute="leading" secondItem="wq9-9b-TJx" secondAttribute="leadingMargin" constant="7" id="nI2-SK-iyg"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="postImageView" destination="9b4-ZX-DDa" id="5o6-PD-8oN"/>
+                                            <outlet property="summaryLabel" destination="DPB-Mu-GXy" id="fDw-Ys-BZg"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="BOb-9r-dwQ" id="BdA-Jy-GRt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="baseline.jpeg" width="450" height="300"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
