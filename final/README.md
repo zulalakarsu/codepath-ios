@@ -37,8 +37,7 @@ Clear MVP with achievable goals:
 - Timer
 - Goal input
 - Audio player
-- Distraction prevention  
-Optional enhancements like session history, analytics, and syncing can come later.
+Optional enhancements like distraction prevention, auto-session planner, session history, and analytics can come later.
 
 ---
 
@@ -50,10 +49,10 @@ Optional enhancements like session history, analytics, and syncing can come late
 - User can start a timer for focus (Pomodoro or custom duration)  
 - User can input and tag a goal for the focus session  
 - User can choose and play an ambient or binaural audio track  
-- App blocks screen taps or accidental switching during the session  
-- User receives a daily reminder to start their planned sessions  
 
 #### ✨ Optional Nice-to-have Stories
+- App blocks screen taps or accidental switching during the session  
+- User receives a daily reminder to start their planned sessions
 - User can see a streak or habit history  
 - User can see weekly time spent focusing and goal completion  
 - User can connect to Apple Health/FitnessKit for focus tracking  
@@ -116,20 +115,20 @@ Optional enhancements like session history, analytics, and syncing can come late
 
 ---
 
-## **Wireframes**
+## **Demo**
 
+<div>
+    <a href="https://www.loom.com/share/a61436ab088e424b86365241920debd3">
+      <p>Simulator - iPhone 16 - 22 April 2025 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/a61436ab088e424b86365241920debd3">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/a61436ab088e424b86365241920debd3-8f5873d5cbd65d5d-full-play.gif">
+    </a>
+  </div>
 
 
 
 ---
-
-## **[BONUS] Digital Wireframes & Mockups**
-(Optional section for Figma or digital mockups)
-
----
-
-## **Schema**
-(To be completed in Unit 9)
 
 ### **Models**
 - Session  
@@ -145,7 +144,3 @@ Optional enhancements like session history, analytics, and syncing can come late
   - streakCount  
   - sessionHistory  
 
----
-
-### **Networking**
-TBD
