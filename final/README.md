@@ -15,6 +15,20 @@
 
 ---
 
+## **Demo**
+
+<div>
+    <a href="https://www.loom.com/share/a61436ab088e424b86365241920debd3">
+      <p>Simulator - iPhone 16 - 22 April 2025 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/a61436ab088e424b86365241920debd3">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/a61436ab088e424b86365241920debd3-8f5873d5cbd65d5d-full-play.gif">
+    </a>
+  </div>
+
+
+---
+
 ### **App Evaluation**
 
 **Category:**  
@@ -112,19 +126,6 @@ Optional enhancements like distraction prevention, auto-session planner, session
 
 **Profile/Settings (optional)**  
 → Manage preferences, view streaks  
-
----
-
-## **Demo**
-
-<div>
-    <a href="https://www.loom.com/share/a61436ab088e424b86365241920debd3">
-      <p>Simulator - iPhone 16 - 22 April 2025 - Watch Video</p>
-    </a>
-    <a href="https://www.loom.com/share/a61436ab088e424b86365241920debd3">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/a61436ab088e424b86365241920debd3-8f5873d5cbd65d5d-full-play.gif">
-    </a>
-  </div>
 
 
 
